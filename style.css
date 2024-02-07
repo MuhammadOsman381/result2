@@ -1,0 +1,69 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+}
+form
+{
+    
+    display:flex;
+    /* align-items: center; */
+    justify-content: center;
+    height: 85vh;
+    width: 35vw;
+    flex-direction: column;
+    border: none;
+    text-align: justify;
+    margin-top: 0vw;
+    border-radius: 73px 23px 72px 20px;
+-webkit-border-radius: 73px 23px 72px 20px;
+-moz-border-radius: 73px 23px 72px 20px;
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.18);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6.6px);
+-webkit-backdrop-filter: blur(6.6px);
+}
+
+input,label
+{
+    width: 22vw;
+    height: 28px;
+    outline: none;
+    margin-left: 6vw;
+}
+input
+{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    height: 9px;
+}
+
+button
+{
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+    color: white;
+    width: 6vw;
+    height: 6vh;
+    margin-left: 6vw;
+    margin-top: 1vw;
+}
+
+a
+{
+    color: white;
+    text-decoration: none;
+}
